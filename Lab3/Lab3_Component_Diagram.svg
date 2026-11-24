@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1540" height="1072" viewBox="0 0 1540 1072" font-family="Segoe UI, Arial, Helvetica, sans-serif">
+<rect width="1540" height="1072" fill="white"/>
+<text x="770.0" y="40" font-size="25" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Self-Service Coffee Kiosk System — UML Component Diagram</text>
+<text x="770.0" y="66" font-size="14" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">Architecture: Layered (Presentation → Business Logic → Data)   ·   Prathith Shetty   ·   SRN PES2UG24AM121</text>
+<rect x="25" y="90" width="1135" height="960" fill="none" stroke="#333" stroke-width="2"/>
+<text x="39" y="111" font-size="12" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">«subsystem»</text>
+<text x="125" y="111" font-size="14" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">Coffee Kiosk Software (runs on the kiosk PC)</text>
+<rect x="1134" y="97" width="16" height="20" fill="white" stroke="#333" stroke-width="1.2"/>
+<rect x="1129" y="101" width="10" height="4.5" fill="white" stroke="#333" stroke-width="1.2"/>
+<rect x="1129" y="108.5" width="10" height="4.5" fill="white" stroke="#333" stroke-width="1.2"/>
+<rect x="45" y="126" width="285" height="25" fill="#EEF4FF" stroke="#4A5568" stroke-width="1.3"/>
+<rect x="45" y="151" width="1095" height="171" fill="#EEF4FF" stroke="#4A5568" stroke-width="1.3"/>
+<text x="55" y="144" font-size="13" font-weight="bold" font-style="normal" text-anchor="start" fill="#2D3748">«layer» Presentation Layer</text>
+<rect x="45" y="392" width="285" height="25" fill="#EEF9F0" stroke="#4A5568" stroke-width="1.3"/>
+<rect x="45" y="417" width="1095" height="350" fill="#EEF9F0" stroke="#4A5568" stroke-width="1.3"/>
+<text x="55" y="410" font-size="13" font-weight="bold" font-style="normal" text-anchor="start" fill="#2D3748">«layer» Business Logic Layer</text>
+<rect x="45" y="838" width="285" height="25" fill="#FFF3EA" stroke="#4A5568" stroke-width="1.3"/>
+<rect x="45" y="863" width="1095" height="169" fill="#FFF3EA" stroke="#4A5568" stroke-width="1.3"/>
+<text x="55" y="856" font-size="13" font-weight="bold" font-style="normal" text-anchor="start" fill="#2D3748">«layer» Data Layer</text>
+<rect x="90" y="180" width="300" height="105" rx="3" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.7"/>
+<rect x="364" y="188" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="192" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="199.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="240.0" y="218.0" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«component»</text>
+<text x="240.0" y="238.0" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Touch Screen UI</text>
+<text x="240.0" y="257.0" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">touch events · menu, size &amp; pay screens</text>
+<rect x="90" y="455" width="300" height="135" rx="3" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.7"/>
+<rect x="364" y="463" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="467" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="474.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="240.0" y="508.0" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«component»</text>
+<text x="240.0" y="528.0" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Order Manager</text>
+<text x="240.0" y="547.0" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">builds the order · computes total</text>
+<rect x="700" y="435" width="300" height="120" rx="3" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.7"/>
+<rect x="974" y="443" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="969" y="447" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="969" y="454.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="850.0" y="480.5" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«component»</text>
+<text x="850.0" y="500.5" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Payment Service</text>
+<text x="850.0" y="519.5" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">credit-card payments only</text>
+<rect x="700" y="650" width="300" height="100" rx="3" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.7"/>
+<rect x="974" y="658" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="969" y="662" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="969" y="669.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="850.0" y="685.5" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«component»</text>
+<text x="850.0" y="705.5" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Receipt Printer</text>
+<text x="850.0" y="724.5" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">formats &amp; prints receipts</text>
+<rect x="90" y="902" width="300" height="105" rx="3" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.7"/>
+<rect x="364" y="910" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="914" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="359" y="921.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="240.0" y="940.0" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«component»</text>
+<text x="240.0" y="960.0" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Menu &amp; Pricing Database</text>
+<text x="240.0" y="979.0" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">SQLite · menu, prices, orders</text>
+<rect x="1230" y="415" width="280" height="80" rx="3" fill="#F1F3F6" stroke="#5B6573" stroke-width="1.7" stroke-dasharray="7 4"/>
+<rect x="1484" y="423" width="16" height="20" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="427" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="434.5" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<text x="1370.0" y="440.5" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«device»</text>
+<text x="1370.0" y="460.5" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Card Reader</text>
+<text x="1370.0" y="479.5" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">EMV chip / contactless (NFC)</text>
+<rect x="1230" y="540" width="280" height="80" rx="3" fill="#F1F3F6" stroke="#5B6573" stroke-width="1.7" stroke-dasharray="7 4"/>
+<rect x="1484" y="548" width="16" height="20" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="552" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="559.5" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<text x="1370.0" y="565.5" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«external system»</text>
+<text x="1370.0" y="585.5" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Bank Payment Gateway</text>
+<text x="1370.0" y="604.5" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">card authorisation service</text>
+<rect x="1230" y="660" width="280" height="80" rx="3" fill="#F1F3F6" stroke="#5B6573" stroke-width="1.7" stroke-dasharray="7 4"/>
+<rect x="1484" y="668" width="16" height="20" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="672" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<rect x="1479" y="679.5" width="10" height="4.5" fill="white" stroke="#5B6573" stroke-width="1.2"/>
+<text x="1370.0" y="685.5" font-size="12" font-weight="normal" font-style="italic" text-anchor="middle" fill="#4a4a4a">«device»</text>
+<text x="1370.0" y="705.5" font-size="15.5" font-weight="bold" font-style="normal" text-anchor="middle" fill="#1d1d1f">Thermal Receipt Printer</text>
+<text x="1370.0" y="724.5" font-size="11.5" font-weight="normal" font-style="normal" text-anchor="middle" fill="#4a4a4a">ESC/POS printer</text>
+<polyline points="240,290 240,341" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="240,363 240,450" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 226 355 A 14 14 0 0 1 254 355" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="240" cy="355" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<circle cx="210" cy="355" r="10" fill="#2B6CB0"/>
+<text x="210" y="359.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">1</text>
+<text x="266" y="351" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IOrderService</text>
+<text x="266" y="368" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">in-process API calls: getMenu(), addItem(type, size), checkout()</text>
+<polyline points="240,595 240,789" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="240,811 240,897" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 226 803 A 14 14 0 0 1 254 803" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="240" cy="803" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<circle cx="210" cy="803" r="10" fill="#2B6CB0"/>
+<text x="210" y="807.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">2</text>
+<text x="266" y="799" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IMenuRepository</text>
+<text x="266" y="816" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">database queries (SQL): getMenuItems(), getPrice(type, size), saveOrder(order)</text>
+<polyline points="395,495 596,495" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="618,495 695,495" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 610 481 A 14 14 0 0 0 610 509" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="610" cy="495" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<circle cx="660" cy="495" r="10" fill="#2B6CB0"/>
+<text x="660" y="499.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">3</text>
+<text x="410" y="484" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IPaymentProcessing</text>
+<text x="410" y="523" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">API call: processPayment(orderId, amount)</text>
+<polyline points="395,555 470,555 470,700 596,700" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="618,700 695,700" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 610 686 A 14 14 0 0 0 610 714" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="610" cy="700" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<circle cx="660" cy="700" r="10" fill="#2B6CB0"/>
+<text x="660" y="704.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">4</text>
+<text x="482" y="689" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IReceiptPrinting</text>
+<text x="482" y="730" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">API call: printReceipt(order)</text>
+<polyline points="1005,455 1186,455" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1208,455 1225,455" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 1200 441 A 14 14 0 0 0 1200 469" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="1200" cy="455" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="1014" y="445" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">ICardReader</text>
+<text x="1014" y="475" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">USB · EMV / NFC</text>
+<polyline points="950,560 950,580 1186,580" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1208,580 1225,580" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 1200 566 A 14 14 0 0 0 1200 594" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="1200" cy="580" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="1014" y="570" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IPaymentGateway</text>
+<text x="1014" y="600" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">HTTPS / TLS 1.2</text>
+<polyline points="1005,700 1186,700" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1208,700 1225,700" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 1200 686 A 14 14 0 0 0 1200 714" fill="none" stroke="#222" stroke-width="1.7"/>
+<circle cx="1200" cy="700" r="8" fill="white" stroke="#222" stroke-width="1.7"/>
+<text x="1014" y="690" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">IPrinterDriver</text>
+<text x="1014" y="720" font-size="11.5" font-weight="normal" font-style="italic" text-anchor="start" fill="#4a4a4a">USB · ESC/POS</text>
+<rect x="235" y="280" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="235" y="450" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="385" y="490" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="385" y="550" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="235" y="585" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="235" y="897" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="695" y="490" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="995" y="450" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="945" y="550" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="695" y="695" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="995" y="695" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="1225" y="450" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="1225" y="575" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<rect x="1225" y="695" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<path d="M 470 150 H 1104 L 1120 166 V 310 H 470 Z" fill="#FFFDE8" stroke="#8D8D6E" stroke-width="1.2"/>
+<path d="M 1104 150 V 166 H 1120" fill="none" stroke="#8D8D6E" stroke-width="1.2"/>
+<text x="484" y="174" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">Order flow (data flow through the layers)</text>
+<circle cx="496" cy="198" r="10" fill="#2B6CB0"/>
+<text x="496" y="202.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">1</text>
+<text x="514" y="202" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">Customer taps a coffee type (Espresso / Americano / Latte) and a size (Small / Large).</text>
+<circle cx="496" cy="225" r="10" fill="#2B6CB0"/>
+<text x="496" y="229.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">2</text>
+<text x="514" y="229" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">Order Manager reads the menu and price from the Menu &amp; Pricing Database.</text>
+<circle cx="496" cy="252" r="10" fill="#2B6CB0"/>
+<text x="496" y="256.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">3</text>
+<text x="514" y="256" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">Customer pays by credit card: Payment Service reads the card and asks the bank to approve.</text>
+<circle cx="496" cy="279" r="10" fill="#2B6CB0"/>
+<text x="496" y="283.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">4</text>
+<text x="514" y="283" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">On approval the order is saved and the Receipt Printer prints the receipt.</text>
+<polyline points="390,955 470,955" fill="none" stroke="#8D8D6E" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M 470 898 H 1104 L 1120 914 V 1016 H 470 Z" fill="#FFFDE8" stroke="#8D8D6E" stroke-width="1.2"/>
+<path d="M 1104 898 V 914 H 1120" fill="none" stroke="#8D8D6E" stroke-width="1.2"/>
+<text x="484" y="922" font-size="13.5" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">Menu &amp; Pricing Database stores</text>
+<text x="484" y="948" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">•  Menu: 3 coffee types × 2 sizes, each with a price (editable by staff)</text>
+<text x="484" y="970" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">•  Completed orders: order id, items, total, time, payment approval code</text>
+<text x="484" y="992" font-size="12.5" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">•  No card numbers or PINs — card data never leaves the Payment Service</text>
+<rect x="1230" y="766" width="280" height="284" fill="white" stroke="#888" stroke-width="1.2"/>
+<text x="1244" y="790" font-size="14" font-weight="bold" font-style="normal" text-anchor="start" fill="#1d1d1f">Legend</text>
+<rect x="1250" y="803" width="46" height="26" fill="#FFF4CC" stroke="#8A6D1E" stroke-width="1.4"/>
+<rect x="1280" y="806" width="16" height="20" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="1275" y="810" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<rect x="1275" y="817.5" width="10" height="4.5" fill="white" stroke="#8A6D1E" stroke-width="1.2"/>
+<text x="1312" y="820" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">software component</text>
+<rect x="1250" y="839" width="46" height="26" fill="#F1F3F6" stroke="#5B6573" stroke-width="1.4" stroke-dasharray="5 3"/>
+<text x="1312" y="856" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">external device / system</text>
+<polyline points="1250,888 1280,888" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="1288" cy="888" r="8" fill="white" stroke="#222" stroke-width="1.6"/>
+<text x="1312" y="892" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">provided interface (ball)</text>
+<polyline points="1250,924 1280,924" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 1294 911 A 13 13 0 0 0 1294 937" fill="none" stroke="#222" stroke-width="1.6"/>
+<text x="1312" y="928" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">required interface (socket)</text>
+<polyline points="1250,960 1264,960" fill="none" stroke="#222" stroke-width="1.6"/>
+<polyline points="1286,960 1300,960" fill="none" stroke="#222" stroke-width="1.6"/>
+<path d="M 1278 947 A 13 13 0 0 0 1278 973" fill="none" stroke="#222" stroke-width="1.6"/>
+<circle cx="1278" cy="960" r="8" fill="white" stroke="#222" stroke-width="1.6"/>
+<text x="1312" y="964" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">assembly connector (solid)</text>
+<rect x="1268" y="991" width="10" height="10" fill="white" stroke="#222" stroke-width="1.3"/>
+<text x="1312" y="1000" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">port</text>
+<circle cx="1273" cy="1032" r="10" fill="#2B6CB0"/>
+<text x="1273" y="1036.5" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="white">1</text>
+<text x="1312" y="1036" font-size="12" font-weight="normal" font-style="normal" text-anchor="start" fill="#1d1d1f">step in the order flow</text>
+</svg>
